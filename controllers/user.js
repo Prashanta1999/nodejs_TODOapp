@@ -2,8 +2,9 @@ import { User } from "../models/user.js"
 import  bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 import { sendCookies } from "../utils/features.js"
+import ErrorHandeler from "../MiddleWares/error.js"
 
-export const getAllusers = async(req, res, ) => {}
+
 
 
 export const login = async(req, res,next) => {
